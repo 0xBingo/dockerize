@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Chat from './Chat';
 
 export default function App() {
-  return (
-    <div>
-      <h1>Simple Chat</h1>
-      <Chat />
-    </div>
-  );
+    return (
+        <div className="app">
+            <div className="chat-header">
+                <h1>📬 Messagerie</h1>
+                <p>Discussions en temps réel</p>
+            </div>
+            <Chat />
+        </div>
+    );
 }
